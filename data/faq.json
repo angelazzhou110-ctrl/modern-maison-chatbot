@@ -1,0 +1,74 @@
+[
+  {
+    "id": "faq_1",
+    "title": "What does Modern Maison offer?",
+    "content": "Modern Maison Co offers catering, charcuterie classes, kids cooking sessions, and boards & grazing options.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_2",
+    "title": "Current classes and workshops",
+    "content": "Modern Maison offers classes and workshops on a quarterly basis. Current classes vary. Categories mentioned on the FAQ page include charcuterie workshops, kids' cooking classes, and senior classes.",
+    "url": "https://www.modernmaisonco.com/faq"
+  },
+  {
+    "id": "faq_3",
+    "title": "Private classes",
+    "content": "Modern Maison offers private workshops and cooking classes for birthday parties, corporate events, family gatherings, and other special occasions.",
+    "url": "https://www.modernmaisonco.com/faq"
+  },
+  {
+    "id": "faq_4",
+    "title": "Catering services",
+    "content": "Modern Maison specializes in catering for intimate gatherings, weddings, corporate events, and celebrations of many sizes.",
+    "url": "https://www.modernmaisonco.com/faq"
+  },
+  {
+    "id": "faq_5",
+    "title": "What is included in charcuterie workshops?",
+    "content": "Workshops include tools and ingredients to create a board, instruction on pairing flavors and arranging designs, and a completed board to take home.",
+    "url": "https://www.modernmaisonco.com/faq"
+  },
+  {
+    "id": "faq_6",
+    "title": "Kids classes age groups",
+    "content": "Kids' classes are tailored to specific age groups, and customers should share the child's age when booking.",
+    "url": "https://www.modernmaisonco.com/faq"
+  },
+  {
+    "id": "faq_7",
+    "title": "Charcuterie boxes basics",
+    "content": "Charcuterie boxes start at $90, serve 3-4 people, are custom made, and selections vary. Dietary selections listed include traditional, vegan, vegetarian, gluten free, pork free, and pescatarian. Orders must be placed 72 hours in advance. Delivery is not included in the listed price.",
+    "url": "https://www.modernmaisonco.com/boardsandgrazing/p/charcuterie-boxes"
+  },
+  {
+    "id": "faq_8",
+    "title": "Contact email",
+    "content": "Customers can contact Modern Maison at char@modernmaisonco.com.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "keywords": ["classes", "class", "workshops", "workshop", "current classes"],
+    "answer": "We offer a variety of classes and workshops on a quarterly basis, including charcuterie workshops, kids’ cooking classes, and senior classes. You can view all current offerings on our Current Classes page."
+  },
+  {
+    "keywords": ["private classes", "private class", "private workshops", "private workshop", "private", "birthday", "corporate", "family gathering", "special occasion"],
+    "answer": "Yes — we offer private workshops and cooking classes for birthday parties, corporate events, family gatherings, and other special occasions."
+  },
+  {
+    "keywords": ["catering", "wedding", "weddings", "events", "event"],
+    "answer": "We specialize in catering for intimate gatherings, weddings, corporate events, and celebrations of all sizes. Our menus are tailored to reflect your vision with elegance, flavor, and creativity."
+  },
+  {
+    "keywords": ["charcuterie workshop", "charcuterie workshops", "charcuterie"],
+    "answer": "Our charcuterie workshops include all tools and ingredients needed to create a beautiful board, instruction on pairing flavors and arranging designs, and a completed board to take home and enjoy."
+  },
+  {
+    "keywords": ["kids classes", "kids class", "kids", "children", "age", "age-specific"],
+    "answer": "Yes — our kids’ classes are tailored to specific age groups so the experience stays fun, engaging, and age-appropriate. Let us know your child’s age when booking."
+  },
+  {
+    "keywords": ["instagram", "newsletter", "updates", "stay updated"],
+    "answer": "You can stay updated by following us on Instagram or subscribing to our newsletter for new class announcements, service updates, and exclusive offers."
+  }
+]
