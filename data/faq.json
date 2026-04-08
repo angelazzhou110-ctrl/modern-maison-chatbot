@@ -1,74 +1,160 @@
 [
   {
     "id": "faq_1",
+    "category": "general",
     "title": "What does Modern Maison offer?",
-    "content": "Modern Maison Co offers catering, charcuterie classes, kids cooking sessions, and boards & grazing options.",
+    "keywords": [
+      "what do you offer",
+      "what does modern maison offer",
+      "services",
+      "offer",
+      "options"
+    ],
+    "answer": "Modern Maison Co offers catering, charcuterie classes, kids’ cooking sessions, and boards and grazing options.",
     "url": "https://www.modernmaisonco.com/"
   },
   {
     "id": "faq_2",
+    "category": "classes",
     "title": "Current classes and workshops",
-    "content": "Modern Maison offers classes and workshops on a quarterly basis. Current classes vary. Categories mentioned on the FAQ page include charcuterie workshops, kids' cooking classes, and senior classes.",
+    "keywords": [
+      "current classes",
+      "current workshops",
+      "classes",
+      "class",
+      "workshops",
+      "workshop",
+      "charcuterie classes",
+      "kids cooking classes",
+      "senior classes"
+    ],
+    "answer": "We offer a variety of classes and workshops on a quarterly basis. Current offerings vary and can be found on our Current Classes page. Our class categories include Charcuterie Workshops, Kids’ Cooking Classes, and Senior Classes. For specific class information or to host your own curated class, please visit our charcuterie classes page.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_3",
+    "category": "private_events",
     "title": "Private classes",
-    "content": "Modern Maison offers private workshops and cooking classes for birthday parties, corporate events, family gatherings, and other special occasions.",
+    "keywords": [
+      "private classes",
+      "private class",
+      "private workshops",
+      "private workshop",
+      "private event",
+      "birthday party",
+      "birthday parties",
+      "corporate event",
+      "corporate events",
+      "family gathering",
+      "family gatherings",
+      "special occasion",
+      "special occasions"
+    ],
+    "answer": "Yes. We offer private workshops and cooking classes for birthday parties, corporate events, family gatherings, and other special occasions.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_4",
+    "category": "catering",
     "title": "Catering services",
-    "content": "Modern Maison specializes in catering for intimate gatherings, weddings, corporate events, and celebrations of many sizes.",
+    "keywords": [
+      "catering",
+      "cater",
+      "catering services",
+      "do you cater",
+      "wedding catering",
+      "weddings",
+      "corporate catering",
+      "celebrations",
+      "intimate gatherings"
+    ],
+    "answer": "We specialize in catering for all occasions, including intimate gatherings, weddings, corporate events, and celebrations of all sizes. Our menus are tailored to reflect your vision, offering a mix of elegance, flavor, and creativity. Please visit our catering page for a full overview of our catering options.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_5",
-    "title": "What is included in charcuterie workshops?",
-    "content": "Workshops include tools and ingredients to create a board, instruction on pairing flavors and arranging designs, and a completed board to take home.",
+    "category": "classes",
+    "title": "What is included in the charcuterie workshops?",
+    "keywords": [
+      "charcuterie workshop",
+      "charcuterie workshops",
+      "what is included",
+      "included in the charcuterie workshops",
+      "what do workshops include",
+      "board workshop"
+    ],
+    "answer": "Our charcuterie workshops include all tools and ingredients needed to create a stunning board, instruction on pairing flavors, arranging designs, and creating an aesthetic spread, and a completed board to take home and enjoy. For more information on hosting your own group workshop, please visit the charcuterie classes page.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_6",
-    "title": "Kids classes age groups",
-    "content": "Kids' classes are tailored to specific age groups, and customers should share the child's age when booking.",
+    "category": "classes",
+    "title": "Are the kids’ cooking classes age-specific?",
+    "keywords": [
+      "kids cooking classes",
+      "kids classes",
+      "kids class",
+      "children",
+      "child age",
+      "age specific",
+      "age-specific",
+      "age groups"
+    ],
+    "answer": "Yes. Our kids’ classes are tailored to specific age groups to ensure the experience is fun, engaging, and age-appropriate. Let us know your child’s age when booking.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_7",
-    "title": "Charcuterie boxes basics",
-    "content": "Charcuterie boxes start at $90, serve 3-4 people, are custom made, and selections vary. Dietary selections listed include traditional, vegan, vegetarian, gluten free, pork free, and pescatarian. Orders must be placed 72 hours in advance. Delivery is not included in the listed price.",
-    "url": "https://www.modernmaisonco.com/boardsandgrazing/p/charcuterie-boxes"
+    "category": "updates",
+    "title": "How do I stay updated on new classes and services?",
+    "keywords": [
+      "stay updated",
+      "updates",
+      "new classes",
+      "newsletter",
+      "instagram",
+      "follow",
+      "announcements",
+      "exclusive offers"
+    ],
+    "answer": "Follow us on Instagram or subscribe to our newsletter for the latest updates, new class announcements, and exclusive offers.",
+    "url": "https://www.modernmaisonco.com/faq"
   },
   {
     "id": "faq_8",
+    "category": "boards_and_grazing",
+    "title": "Charcuterie boxes basics",
+    "keywords": [
+      "charcuterie box",
+      "charcuterie boxes",
+      "boxes",
+      "box price",
+      "pricing",
+      "dietary options",
+      "gluten free",
+      "vegan",
+      "vegetarian",
+      "pescatarian",
+      "delivery",
+      "72 hours",
+      "advance order"
+    ],
+    "answer": "Charcuterie boxes start at $90, serve 3 to 4 people, and are custom made. Selections vary. Dietary options listed include traditional, vegan, vegetarian, gluten free, pork free, and pescatarian. Orders must be placed 72 hours in advance, and delivery is not included in the listed price.",
+    "url": "https://www.modernmaisonco.com/boardsandgrazing/p/charcuterie-boxes"
+  },
+  {
+    "id": "faq_9",
+    "category": "contact",
     "title": "Contact email",
-    "content": "Customers can contact Modern Maison at char@modernmaisonco.com.",
+    "keywords": [
+      "contact",
+      "contact email",
+      "email",
+      "reach out",
+      "get in touch",
+      "contact information"
+    ],
+    "answer": "You can contact Modern Maison at char@modernmaisonco.com.",
     "url": "https://www.modernmaisonco.com/"
-  },
-  {
-    "keywords": ["classes", "class", "workshops", "workshop", "current classes"],
-    "answer": "We offer a variety of classes and workshops on a quarterly basis, including charcuterie workshops, kids’ cooking classes, and senior classes. You can view all current offerings on our Current Classes page."
-  },
-  {
-    "keywords": ["private classes", "private class", "private workshops", "private workshop", "private", "birthday", "corporate", "family gathering", "special occasion"],
-    "answer": "Yes — we offer private workshops and cooking classes for birthday parties, corporate events, family gatherings, and other special occasions."
-  },
-  {
-    "keywords": ["catering", "wedding", "weddings", "events", "event"],
-    "answer": "We specialize in catering for intimate gatherings, weddings, corporate events, and celebrations of all sizes. Our menus are tailored to reflect your vision with elegance, flavor, and creativity."
-  },
-  {
-    "keywords": ["charcuterie workshop", "charcuterie workshops", "charcuterie"],
-    "answer": "Our charcuterie workshops include all tools and ingredients needed to create a beautiful board, instruction on pairing flavors and arranging designs, and a completed board to take home and enjoy."
-  },
-  {
-    "keywords": ["kids classes", "kids class", "kids", "children", "age", "age-specific"],
-    "answer": "Yes — our kids’ classes are tailored to specific age groups so the experience stays fun, engaging, and age-appropriate. Let us know your child’s age when booking."
-  },
-  {
-    "keywords": ["instagram", "newsletter", "updates", "stay updated"],
-    "answer": "You can stay updated by following us on Instagram or subscribing to our newsletter for new class announcements, service updates, and exclusive offers."
   }
 ]
