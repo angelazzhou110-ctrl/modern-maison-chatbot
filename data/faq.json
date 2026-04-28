@@ -10,7 +10,7 @@
       "offer",
       "options"
     ],
-    "answer": "Modern Maison Co offers catering, charcuterie classes, kids’ cooking sessions, and boards and grazing options.",
+    "answer": "Modern Maison Co offers catering, charcuterie classes, kids’ cooking sessions, boards and grazing options.",
     "url": "https://www.modernmaisonco.com/"
   },
   {
@@ -28,7 +28,7 @@
       "kids cooking classes",
       "senior classes"
     ],
-    "answer": "We offer a variety of classes and workshops on a quarterly basis. Current offerings vary and can be found on our Current Classes page. Our class categories include Charcuterie Workshops, Kids’ Cooking Classes, and Senior Classes. For specific class information or to host your own curated class, please visit our charcuterie classes page.",
+    "answer": "We offer a variety of classes and workshops on a quarterly basis. Current offerings vary and can be found on our Current Classes page. Our class categories include Charcuterie Workshops, Kids’ Cooking Classes, and Senior Classes. We offer a fully mobile characuterie workshop/classes, meaning we bring the entire expeirence to your home/airbnb/location of choice! All supplies are included. For specific class information or to host your own curated class, please visit our charcuterie classes page.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
@@ -68,7 +68,7 @@
       "celebrations",
       "intimate gatherings"
     ],
-    "answer": "We specialize in catering for all occasions, including intimate gatherings, weddings, corporate events, and celebrations of all sizes. Our menus are tailored to reflect your vision, offering a mix of elegance, flavor, and creativity. Please visit our catering page for a full overview of our catering options.",
+    "answer": "We specialize in catering for all occasions, including intimate gatherings, weddings, corporate events, and celebrations of all sizes. Our menus are tailored to reflect your vision, offering a mix of elegance, flavor, and creativity. We offer a customizable experience for any event, including bespoke experiences designed with you in mind.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
@@ -83,7 +83,7 @@
       "what do workshops include",
       "board workshop"
     ],
-    "answer": "Our charcuterie workshops include all tools and ingredients needed to create a stunning board, instruction on pairing flavors, arranging designs, and creating an aesthetic spread, and a completed board to take home and enjoy. For more information on hosting your own group workshop, please visit the charcuterie classes page.",
+    "answer": "Our charcuterie workshops include all tools and ingredients needed to create a stunning board, instruction on pairing flavors, arranging designs, and creating an aesthetic spread, and a completed 10x10 in. board to take home and enjoy. For more information on hosting your own group workshop, please visit the charcuterie classes page.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
@@ -100,7 +100,7 @@
       "age-specific",
       "age groups"
     ],
-    "answer": "Yes. Our kids’ classes are tailored to specific age groups to ensure the experience is fun, engaging, and age-appropriate. Let us know your child’s age when booking.",
+    "answer": "Yes. Our kids’ classes are tailored to ages 8-17 to ensure the experience is fun, engaging, and age-appropriate.",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
@@ -117,7 +117,7 @@
       "announcements",
       "exclusive offers"
     ],
-    "answer": "Follow us on Instagram or subscribe to our newsletter for the latest updates, new class announcements, and exclusive offers.",
+    "answer": "Follow us on Instagram (https://www.instagram.com/modernmaisonco/), Tiktok (https://www.tiktok.com/@modernmaisoncompany), Facebook (https://www.facebook.com/ModernMaisonCo/)",
     "url": "https://www.modernmaisonco.com/faq"
   },
   {
@@ -139,7 +139,7 @@
       "72 hours",
       "advance order"
     ],
-    "answer": "Charcuterie boxes start at $90, serve 3 to 4 people, and are custom made. Selections vary. Dietary options listed include traditional, vegan, vegetarian, gluten free, pork free, and pescatarian. Orders must be placed 72 hours in advance, and delivery is not included in the listed price.",
+    "answer": "We offer a variety of Charcuterie boxes, ranging from our Individual Charcuterie Boxes ($25) and requiring a minimum order of 10, to other boxes that start at $90, serve 3 to 4 people, and are custom made. Selections vary. Dietary options listed include traditional, vegan, vegetarian, gluten free, pork free, halal, and pescatarian. Orders must be placed 72 hours in advance, and delivery fee may vary based on location.",
     "url": "https://www.modernmaisonco.com/boardsandgrazing/p/charcuterie-boxes"
   },
   {
@@ -156,5 +156,176 @@
     ],
     "answer": "You can contact Modern Maison at char@modernmaisonco.com.",
     "url": "https://www.modernmaisonco.com/"
+  },
+  [
+  {
+    "id": "faq_10",
+    "category": "delivery",
+    "title": "Delivery radius and fees",
+    "keywords": [
+      "delivery",
+      "delivery fee",
+      "how far do you deliver",
+      "delivery radius",
+      "locations",
+      "detroit delivery"
+    ],
+    "answer": "We offer delivery within approximately 20 miles of Detroit. Delivery is $30 within this range, with a $200 minimum order required. We may travel up to 30 minutes from Detroit for larger orders or events. For smaller orders, we typically stay within a 20-mile radius. Areas include Detroit, Royal Oak, Warren, Sterling Heights, Ferndale, Troy, Birmingham, Bloomfield, Dearborn, Farmington, Southfield, and more. For exact availability, we recommend confirming with your zip code.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_11",
+    "category": "booking",
+    "title": "How far in advance should I order?",
+    "keywords": [
+      "how far in advance",
+      "booking time",
+      "order timing",
+      "last minute order",
+      "when to book"
+    ],
+    "answer": "All orders must be placed at least 72 hours in advance. For large catering events, weddings, or custom experiences, we recommend booking even earlier to secure your desired date.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_12",
+    "category": "catering",
+    "title": "Minimum catering order",
+    "keywords": [
+      "minimum order",
+      "catering minimum",
+      "minimum people",
+      "event size",
+      "catering requirement"
+    ],
+    "answer": "Our catering services require a minimum of 30 people. This allows us to provide the full Modern Maison experience with proper setup and presentation.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_13",
+    "category": "pricing",
+    "title": "General pricing information",
+    "keywords": [
+      "pricing",
+      "how much",
+      "cost",
+      "price",
+      "menu pricing",
+      "quote"
+    ],
+    "answer": "Pricing varies based on your event size, customization, and add-ons. For detailed pricing, please visit our website or request a custom quote. We’re happy to tailor options to fit your needs and vision.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_14",
+    "category": "weddings",
+    "title": "Wedding and large event add-ons",
+    "keywords": [
+      "wedding pricing",
+      "greenery",
+      "decorations",
+      "event add ons",
+      "flowers"
+    ],
+    "answer": "For weddings and events with 50+ guests, greenery and decorative add-ons are available for a flat rate starting at $75. Smaller events may have greenery priced between $70–$100 depending on the setup.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_15",
+    "category": "payments",
+    "title": "Accepted payment methods",
+    "keywords": [
+      "payment",
+      "how to pay",
+      "credit card",
+      "stripe",
+      "apple pay",
+      "paypal",
+      "cashapp"
+    ],
+    "answer": "We accept all major payment methods including credit card, Apple Pay, PayPal, and CashApp. Credit card payments include a 3.5% processing fee. For larger catering orders, invoices may be sent directly through our system.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_16",
+    "category": "deposit",
+    "title": "Deposit requirements",
+    "keywords": [
+      "deposit",
+      "down payment",
+      "booking deposit",
+      "do i need a deposit"
+    ],
+    "answer": "All large catering orders require a 50% deposit to secure your date. Smaller charcuterie board orders do not require a deposit.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_17",
+    "category": "cancellation",
+    "title": "Cancellation policy",
+    "keywords": [
+      "cancel order",
+      "refund",
+      "cancellation",
+      "refund policy"
+    ],
+    "answer": "Cancellations made within 10 days of your event will receive 75% of the deposit back, while 25% is retained as a non-refundable fee. No refunds are available for other completed or fulfilled orders.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_18",
+    "category": "allergens",
+    "title": "Allergy and dietary accommodations",
+    "keywords": [
+      "allergies",
+      "nut allergy",
+      "dietary restrictions",
+      "gluten free",
+      "vegan",
+      "halal"
+    ],
+    "answer": "We offer a variety of dietary accommodations including vegetarian 🌱, vegan 🥗, gluten-free 🌾❌, pork-free 🐖❌, halal 🕌, and pescatarian 🐟 options. While we do our best to accommodate allergies, we cannot guarantee a completely cross-contamination-free environment.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_19",
+    "category": "availability",
+    "title": "How do I check availability?",
+    "keywords": [
+      "availability",
+      "are you available",
+      "date availability",
+      "booking date"
+    ],
+    "answer": "To check availability, please provide your desired date, event type, number of guests, and delivery location. Our team will confirm availability as soon as possible.",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_20",
+    "category": "hiring",
+    "title": "Job opportunities",
+    "keywords": [
+      "jobs",
+      "hiring",
+      "work with you",
+      "apply",
+      "job application"
+    ],
+    "answer": "We are currently hiring Charcuterie Prep Assistants! We’re looking for individuals who enjoy working with food, have strong attention to detail, and love creating beautiful presentations. Responsibilities include prepping ingredients, assembling charcuterie boxes, and assisting with events. Apply here: [INSERT GOOGLE FORM LINK]",
+    "url": "https://www.modernmaisonco.com/"
+  },
+  {
+    "id": "faq_21",
+    "category": "contact",
+    "title": "Business hours and response time",
+    "keywords": [
+      "business hours",
+      "when will you respond",
+      "response time",
+      "contact hours"
+    ],
+    "answer": "Our team responds to inquiries Monday through Saturday from 8 AM to 8 PM (EST). All communication is handled via email, and we aim to respond as quickly as possible during business hours.",
+    "url": "https://www.modernmaisonco.com/"
   }
+]
 ]
