@@ -44,15 +44,27 @@
       right: 24px;
       bottom: 78px;
       width: 340px;
-      background: rgba(255, 255, 255, 0.98);
+      background: #fff;
       border: 1px solid #ddd7cf;
       border-radius: 18px;
       overflow: hidden;
       display: none;
       z-index: 9998;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      isolation: isolate;
+    }
+    #chatbox::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: #fff;
+      z-index: 0;
     }
 
+    #chatbox > * {
+      position: relative;
+      z-index: 1;
+    }
     #chat-header {
       padding: 18px 20px 12px;
       border-bottom: 1px solid #ece7e0;
