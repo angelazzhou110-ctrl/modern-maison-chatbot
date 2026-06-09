@@ -1,5 +1,9 @@
 # Modern Maison Co — Customer Support Chatbot & Delivery Zone Locator
 
+## Demo
+<img width="1084" height="656" alt="Screen Recording 2026-06-09 at 1 44 59 PM" src="https://github.com/user-attachments/assets/3a074b1a-f0a3-4419-954b-926c0b00bdb4" />
+
+
 A lightweight, embeddable FAQ chatbot and ZIP-code delivery checker built for a Detroit-based charcuterie and catering business, reducing repetitive customer inquiries by surfacing order minimums, dietary accommodations, cancellation policy, and service-area availability instantly on the site.
 
 ---
