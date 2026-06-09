@@ -1,6 +1,6 @@
 # Modern Maison Co — Customer Support Chatbot & Delivery Zone Locator
 
-## Demo
+## Zip-Code Checker Demo
 <img width="1084" height="656" alt="Screen Recording 2026-06-09 at 1 44 59 PM" src="https://github.com/user-attachments/assets/3a074b1a-f0a3-4419-954b-926c0b00bdb4" />
 
 
