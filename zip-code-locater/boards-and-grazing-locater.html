@@ -1,0 +1,170 @@
+<div class="mmc-zip-checker">
+  <div class="mmc-title-row">
+    <h2>Check Delivery Availability</h2>
+  </div>
+
+  <p class="mmc-note">
+    Delivery requires a <strong>$200 minimum order</strong>. Standard delivery fee is <strong>$30</strong>.
+  </p>
+
+  <p class="mmc-label">ENTER YOUR DELIVERY ZIP CODE</p>
+
+  <input
+    id="deliveryZipInput"
+    class="mmc-zip-input"
+    type="text"
+    maxlength="5"
+    inputmode="numeric"
+    oninput="checkDeliveryZip()"
+  />
+
+  <div class="mmc-result-box">
+    <span id="deliveryZipCheck" class="mmc-circle"></span>
+    <p id="deliveryZipText">Enter your ZIP code to check delivery availability.</p>
+  </div>
+</div>
+
+<style>
+.mmc-zip-checker {
+  max-width: 560px;
+  margin: 24px auto;
+  padding: 18px 20px;
+  font-family: inherit;
+  color: black;
+}
+
+.mmc-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mmc-pin {
+  font-size: 18px;
+}
+
+.mmc-title-row h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.mmc-note {
+  font-size: 13px;
+  margin: 0 0 18px;
+  line-height: 1.4;
+}
+
+.mmc-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.mmc-zip-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  font-size: 16px;
+  border: 1px solid black;
+  outline: none;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.mmc-result-box {
+  border: 1px solid black;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+}
+
+.mmc-result-box p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mmc-circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: white;
+}
+
+.mmc-circle.checked {
+  background: black;
+  position: relative;
+}
+
+.mmc-circle.checked::after {
+  content: "✓";
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+</style>
+
+<script>
+const DELIVERY_ZONES = [
+"48326", "48072", "48025", "48009", "48012", "48301", "48302", "48304",
+"48017", "48331", "48334", "48335", "48336", "48220", "48030", "48356",
+"48357", "48070", "48076", "48237", "48069", "48340", "48341", "48342",
+"48343", "48306", "48307", "48309", "48067", "48068", "48073", "48033",
+"48034", "48037", "48075", "48086", "48083", "48084", "48085", "48098",
+"48322", "48323",
+
+"48201", "48202", "48203", "48204", "48205", "48206", "48207", "48208",
+"48209", "48210", "48211", "48212", "48213", "48214", "48215", "48216",
+"48217", "48219", "48221", "48223", "48224", "48225", "48226", "48227",
+"48228", "48230", "48233", "48234", "48235", "48236", "48238", "48239",
+"48240", "48243",
+
+"48120", "48124", "48126", "48128",
+
+"48015", "48091", "48035", "48036", "48038", "48021", "48026", "48042",
+"48044", "48043", "48066", "48080", "48081", "48082",
+
+"48315", "48316", "48317", "48318", "48310", "48312", "48313", "48314",
+
+"48088", "48089", "48090", "48092", "48093"
+];
+
+function checkDeliveryZip() {
+  const zip = document.getElementById("deliveryZipInput").value.trim();
+  const check = document.getElementById("deliveryZipCheck");
+  const text = document.getElementById("deliveryZipText");
+
+  check.classList.remove("checked");
+
+  if (zip.length === 0) {
+    text.innerText = "Enter your ZIP code to check delivery availability.";
+    return;
+  }
+
+  if (zip.length < 5) {
+    text.innerText = "Keep typing your 5-digit ZIP code.";
+    return;
+  }
+
+  if (!/^\d{5}$/.test(zip)) {
+    text.innerText = "Enter a 5-digit ZIP code.";
+    return;
+  }
+
+  if (DELIVERY_ZONES.includes(zip)) {
+    check.classList.add("checked");
+    text.innerText = "Delivery is available in your area.";
+  } else {
+    text.innerText = "Outside standard delivery area. Larger orders may still qualify.";
+  }
+}
+</script>

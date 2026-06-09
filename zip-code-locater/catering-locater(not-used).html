@@ -1,0 +1,166 @@
+<div class="mmc-zip-checker">
+  <div class="mmc-title-row">
+    <h2>Check Service Area</h2>
+  </div>
+
+  <p class="mmc-note">
+    Catering orders require a minimum of <strong>30 guests</strong>.
+  </p>
+
+  <p class="mmc-label">ENTER YOUR EVENT ZIP CODE</p>
+
+  <input
+    id="serviceZipInput"
+    class="mmc-zip-input"
+    type="text"
+    maxlength="5"
+    inputmode="numeric"
+    oninput="checkServiceZip()"
+  />
+
+  <div class="mmc-result-box">
+    <span id="serviceZipCheck" class="mmc-circle"></span>
+    <p id="serviceZipText">Enter your ZIP code to check service availability.</p>
+  </div>
+</div>
+
+<style>
+.mmc-zip-checker {
+  max-width: 560px;
+  margin: 24px auto;
+  padding: 18px 20px;
+  font-family: inherit;
+  color: black;
+}
+
+.mmc-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mmc-pin {
+  font-size: 18px;
+}
+
+.mmc-title-row h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.mmc-note {
+  font-size: 13px;
+  margin: 0 0 18px;
+  line-height: 1.4;
+}
+
+.mmc-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.mmc-zip-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  font-size: 16px;
+  border: 1px solid black;
+  outline: none;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.mmc-result-box {
+  border: 1px solid black;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+}
+
+.mmc-result-box p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mmc-circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: white;
+}
+
+.mmc-circle.checked {
+  background: black;
+  position: relative;
+}
+
+.mmc-circle.checked::after {
+  content: "✓";
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+</style>
+
+<script>
+const SERVICE_ZONES = [
+  "48212","48201","48202","48203","48204","48205","48206","48207",
+  "48208","48209","48210","48211","48213","48214","48215","48216",
+  "48217","48219","48221","48223","48224","48226","48227","48228",
+  "48234","48235","48238",
+  "48089","48091","48092","48093",
+  "48021","48066","48080","48081","48082",
+  "48310","48312","48313",
+  "48035","48036","48038","48026",
+  "48030","48220","48237",
+  "48067","48068","48069","48071","48072","48073",
+  "48033","48034","48075","48076",
+  "48083","48084","48085",
+  "48331","48334","48335","48336",
+  "48340","48341","48342",
+  "48120","48124","48126","48127","48239",
+  "48150","48152","48154",
+  "48230","48236"
+];
+
+function checkServiceZip() {
+  const zip = document.getElementById("serviceZipInput").value.trim();
+  const check = document.getElementById("serviceZipCheck");
+  const text = document.getElementById("serviceZipText");
+
+  check.classList.remove("checked");
+
+  if (zip.length === 0) {
+    text.innerText = "Enter your ZIP code to check service availability.";
+    return;
+  }
+
+  if (zip.length < 5) {
+    text.innerText = "Keep typing your 5-digit ZIP code.";
+    return;
+  }
+
+  if (!/^\d{5}$/.test(zip)) {
+    text.innerText = "Enter a 5-digit ZIP code.";
+    return;
+  }
+
+  if (SERVICE_ZONES.includes(zip)) {
+    check.classList.add("checked");
+    text.innerText = "Service is available in your area.";
+  } else {
+    text.innerText = "Outside standard service area. Larger events may still qualify.";
+  }
+}
+</script>
