@@ -1,2 +1,6 @@
 Flask==3.0.3
 gunicorn
+flask-cors
+sentence-transformers
+scikit-learn
+numpy
