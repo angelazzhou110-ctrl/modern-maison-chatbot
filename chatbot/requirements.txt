@@ -1,6 +1,6 @@
 Flask==3.0.3
 gunicorn
 flask-cors
-sentence-transformers
+sentence-transformers[onnx]
 scikit-learn
 numpy
