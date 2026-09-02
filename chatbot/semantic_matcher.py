@@ -26,7 +26,7 @@ class SemanticMatcher:
         self.faqs = self._load_faqs(faq_path)
 
         logger.info("Loading sentence-transformer model %s ...", MODEL_NAME)
-        self.model = SentenceTransformer(MODEL_NAME)
+        self.model = SentenceTransformer(MODEL_NAME, device="cpu")
 
         self.variant_texts: list[str] = []
         self.variant_faq_index: list[int] = []
