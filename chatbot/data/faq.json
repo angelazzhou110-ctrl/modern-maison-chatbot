@@ -3,6 +3,13 @@
     "id": "faq_1",
     "category": "general",
     "title": "What does Modern Maison offer?",
+    "questions": [
+      "What do you offer?",
+      "What does Modern Maison do?",
+      "What services do you provide?",
+      "What kind of business is this?",
+      "Tell me about Modern Maison"
+    ],
     "keywords": [
       "what do you offer",
       "what does modern maison offer",
@@ -17,6 +24,13 @@
     "id": "faq_2",
     "category": "classes",
     "title": "Current classes and workshops",
+    "questions": [
+      "What classes do you currently offer?",
+      "Do you have any workshops coming up?",
+      "Can you come to my house for a charcuterie class?",
+      "What's included in a mobile workshop?",
+      "Do you host classes for seniors?"
+    ],
     "keywords": [
       "current classes",
       "current workshops",
@@ -35,6 +49,13 @@
     "id": "faq_3",
     "category": "private_events",
     "title": "Private classes",
+    "questions": [
+      "Can I book a private class for my birthday?",
+      "Do you host private events?",
+      "Can you do a corporate team-building workshop?",
+      "Is a private charcuterie class an option for a family reunion?",
+      "Can you host a private workshop for a special occasion?"
+    ],
     "keywords": [
       "private classes",
       "private class",
@@ -57,6 +78,13 @@
     "id": "faq_4",
     "category": "catering",
     "title": "Catering services",
+    "questions": [
+      "Do you cater weddings?",
+      "Do you do catering for corporate events?",
+      "Can you cater a small intimate gathering?",
+      "What kind of catering do you offer?",
+      "Is your menu customizable for catering?"
+    ],
     "keywords": [
       "catering",
       "cater",
@@ -75,6 +103,13 @@
     "id": "faq_5",
     "category": "classes",
     "title": "What is included in the charcuterie workshops?",
+    "questions": [
+      "What do I get in a charcuterie workshop?",
+      "What comes with the board class?",
+      "Do we get to keep the board we make?",
+      "What's included when I book a charcuterie workshop?",
+      "Are ingredients and tools provided at the workshop?"
+    ],
     "keywords": [
       "charcuterie workshop",
       "charcuterie workshops",
@@ -90,6 +125,13 @@
     "id": "faq_6",
     "category": "classes",
     "title": "Are the kids’ cooking classes age-specific?",
+    "questions": [
+      "What ages are the kids classes for?",
+      "Is there an age limit for kids cooking classes?",
+      "Can my 10 year old join a kids cooking class?",
+      "Are kids classes appropriate for teenagers?",
+      "What age group are kids cooking sessions designed for?"
+    ],
     "keywords": [
       "kids cooking classes",
       "kids classes",
@@ -107,6 +149,13 @@
     "id": "faq_7",
     "category": "updates",
     "title": "How do I stay updated on new classes and services?",
+    "questions": [
+      "How can I stay updated on new offerings?",
+      "Where can I follow you on social media?",
+      "Do you have a newsletter?",
+      "How do I find out about new classes and promotions?",
+      "Where do you post announcements?"
+    ],
     "keywords": [
       "stay updated",
       "updates",
@@ -124,6 +173,13 @@
     "id": "faq_8",
     "category": "boards_and_grazing",
     "title": "Charcuterie boxes basics",
+    "questions": [
+      "How much do charcuterie boxes cost?",
+      "Is there a minimum order for charcuterie boxes?",
+      "Do you have vegan or gluten-free charcuterie box options?",
+      "How far in advance do I need to order a charcuterie box?",
+      "What sizes of charcuterie boxes do you offer?"
+    ],
     "keywords": [
       "charcuterie box",
       "charcuterie boxes",
@@ -146,6 +202,13 @@
     "id": "faq_9",
     "category": "contact",
     "title": "Contact email",
+    "questions": [
+      "What's your email address?",
+      "How can I reach out to you?",
+      "How do I get in touch with Modern Maison?",
+      "Is there a contact email for questions?",
+      "Who do I email for more info?"
+    ],
     "keywords": [
       "contact",
       "contact email",
@@ -161,6 +224,13 @@
     "id": "faq_10",
     "category": "delivery",
     "title": "Delivery radius and fees",
+    "questions": [
+      "Do you deliver to Detroit?",
+      "How far do you deliver?",
+      "Is my address in your delivery area?",
+      "What's the delivery fee?",
+      "Do you deliver to Royal Oak or Ferndale?"
+    ],
     "keywords": [
       "delivery",
       "delivery fee",
@@ -176,6 +246,13 @@
     "id": "faq_11",
     "category": "booking",
     "title": "How far in advance should I order?",
+    "questions": [
+      "How early do I need to book?",
+      "Can I place a last minute order?",
+      "How much notice do you need for an order?",
+      "When should I book for a wedding?",
+      "What's the lead time for ordering?"
+    ],
     "keywords": [
       "how far in advance",
       "booking time",
@@ -190,6 +267,13 @@
     "id": "faq_12",
     "category": "catering",
     "title": "Minimum catering order",
+    "questions": [
+      "What's the minimum guest count for catering?",
+      "Can you cater a small party of 10?",
+      "How many people do I need for catering?",
+      "Is there a minimum order size for catering?",
+      "Do you have a guest minimum for events?"
+    ],
     "keywords": [
       "minimum order",
       "catering minimum",
@@ -204,6 +288,13 @@
     "id": "faq_13",
     "category": "pricing",
     "title": "General pricing information",
+    "questions": [
+      "How much does it cost?",
+      "What's your pricing like?",
+      "Can I get a quote?",
+      "How much do you charge for catering?",
+      "What does an event cost on average?"
+    ],
     "keywords": [
       "pricing",
       "how much",
@@ -219,6 +310,13 @@
     "id": "faq_14",
     "category": "weddings",
     "title": "Wedding and large event add-ons",
+    "questions": [
+      "Do you offer greenery or decorations for weddings?",
+      "Can you add flowers to the setup?",
+      "What decorative add-ons are available for large events?",
+      "How much do wedding decoration add-ons cost?",
+      "Do you provide decor for events with 50+ guests?"
+    ],
     "keywords": [
       "wedding pricing",
       "greenery",
@@ -233,6 +331,13 @@
     "id": "faq_15",
     "category": "payments",
     "title": "Accepted payment methods",
+    "questions": [
+      "How can I pay?",
+      "Do you accept credit cards?",
+      "Can I pay with Apple Pay?",
+      "What payment methods do you take?",
+      "Is there a fee for paying by credit card?"
+    ],
     "keywords": [
       "payment",
       "how to pay",
@@ -248,6 +353,13 @@
     "id": "faq_16",
     "category": "deposit",
     "title": "Deposit requirements",
+    "questions": [
+      "Do I need to pay a deposit?",
+      "How much is the deposit for booking?",
+      "Is a down payment required to secure my date?",
+      "What percentage is the deposit?",
+      "Do you require a deposit for catering?"
+    ],
     "keywords": [
       "deposit",
       "down payment",
@@ -261,6 +373,13 @@
     "id": "faq_17",
     "category": "cancellation",
     "title": "Cancellation policy",
+    "questions": [
+      "What's your cancellation policy?",
+      "Can I get a refund if I cancel?",
+      "What happens if I need to cancel my order?",
+      "Do I get my deposit back if I cancel?",
+      "Is there a fee for canceling an event?"
+    ],
     "keywords": [
       "cancel order",
       "refund",
@@ -274,6 +393,13 @@
     "id": "faq_18",
     "category": "allergens",
     "title": "Allergy and dietary accommodations",
+    "questions": [
+      "Do you accommodate food allergies?",
+      "Can you make something nut-free?",
+      "Do you have gluten-free or vegan options?",
+      "Can you accommodate halal dietary needs?",
+      "Is cross-contamination a concern with allergies?"
+    ],
     "keywords": [
       "allergies",
       "nut allergy",
@@ -289,6 +415,13 @@
     "id": "faq_19",
     "category": "availability",
     "title": "How do I check availability?",
+    "questions": [
+      "Are you available on my event date?",
+      "How do I check if you're free for my wedding date?",
+      "How do I request a booking?",
+      "How long does it take to hear back about availability?",
+      "Where do I submit a catering request?"
+    ],
     "keywords": [
       "availability",
       "are you available",
@@ -302,6 +435,13 @@
     "id": "faq_20",
     "category": "hiring",
     "title": "Job opportunities",
+    "questions": [
+      "Are you hiring?",
+      "How do I apply for a job with you?",
+      "Do you have any open positions?",
+      "Can I work for Modern Maison?",
+      "Where's the job application?"
+    ],
     "keywords": [
       "jobs",
       "hiring",
@@ -316,6 +456,13 @@
     "id": "faq_21",
     "category": "contact",
     "title": "Business hours and response time",
+    "questions": [
+      "What are your business hours?",
+      "When will you respond to my message?",
+      "Are you open on weekends?",
+      "How quickly do you respond to inquiries?",
+      "What hours do you operate?"
+    ],
     "keywords": [
       "business hours",
       "when will you respond",
